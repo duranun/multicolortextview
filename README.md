@@ -36,6 +36,12 @@ dependencies {
             />
 ```
 
+####You must write the word you want to color between <color> </color> tags.
+
+```XML
+<string name="coloredText"><![CDATA[<color>Hello</color> <color>Worold</color>]]></string>
+```
+
 
 ## Attributes
 | Attribute | Use |
@@ -43,4 +49,4 @@ dependencies {
 | app:colorIntArray | sets the colors of each <color> tag |
 | app:coloredTextIsBold | sets the bold of colored text |
 | app:startTag | sets the custom oepn tag.  For example &lt;color&gt;. To display a less than sign (<) you must write: ```&lt;``` and to display a greater than sign (>) you must write : ```&gt;``` |
-| app:endTag | sets the custom end tag. For example &lt;/color&gt;  |
+| app:endTag | sets the custom end tag. For example &lt;/color&gt;.To display a less than sign (<) you must write: ```&lt;``` and to display a greater than sign (>) you must write : ```&gt;```  |
