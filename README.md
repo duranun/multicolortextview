@@ -43,4 +43,4 @@ dependencies {
 | app:colorIntArray | sets the colors of each <color> tag |
 | app:coloredTextIsBold | sets the bold of colored text |
 | app:startTag | sets the custom oepn tag.  For example &lt;color&gt;  |
-	| app:endTag | sets the custom end tag. For example &lt;/color&gt;  |
+| app:endTag | sets the custom end tag. For example &lt;/color&gt;  |
