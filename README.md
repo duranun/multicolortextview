@@ -37,7 +37,7 @@ dependencies {
 ```
 
 
-## OtpView Attributes
+## Attributes
 | Attribute | Use |
 | ----------| --- |
 | app:colorIntArray | sets the colors of each <color> tag |
