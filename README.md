@@ -31,7 +31,16 @@ dependencies {
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/resend_desc_text"
-            app:colorIntArray="@array/colorList" <!--Color array-->
+            app:colorIntArray="@array/colorList"
             app:coloredTextIsBold="true"
             />
 ```
+
+
+## OtpView Attributes
+| Attribute | Use |
+| ----------| --- |
+| app:colorIntArray | sets the colors of each <color> tag |
+| app:coloredTextIsBold | sets the bold of colored text |
+| app:startTag | sets the custom oepn tag.  For example &lt;color&gt;  |
+	| app:endTag | sets the custom end tag. For example &lt;/color&gt;  |
