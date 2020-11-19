@@ -7,7 +7,7 @@ android {
     compileSdkVersion 30
 
     defaultConfig {
-        applicationId "com.martitech.multicolortextview"
+        applicationId "com.duranun.multicolortextview"
         minSdkVersion 22
         targetSdkVersion 30
         versionCode 1

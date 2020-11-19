@@ -1,4 +1,4 @@
-package com.martitech.multicolortextview
+package com.duranun.multicolortextview
 
 import org.junit.Test
 
