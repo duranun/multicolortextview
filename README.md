@@ -16,3 +16,6 @@ dependencies {
 	        implementation 'com.github.duranun:multicolortextview:0.1.0'
 	}
 ```
+# How to Use It ?
+
+1. Use in XML
