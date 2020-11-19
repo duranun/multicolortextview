@@ -50,6 +50,11 @@ dependencies {
         <item>@color/color_green</item>
     </integer-array>
 ```
+and set the widget in XML  app:colorIntArray="@array/colorList" or you can set programmatically
+
+```KOTLIN
+        coloredTextView.setColorsListArray(R.array.colorList)
+```
 
 
 ## Attributes
