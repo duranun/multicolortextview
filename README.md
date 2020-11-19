@@ -5,7 +5,7 @@
 
 Step 1. Add the JitPack repository to your build file
 
-```bash
+```
 allprojects {
 		repositories {
 			...
@@ -17,8 +17,21 @@ allprojects {
 
 Step 2. Add the dependency
 
-```bash
+```
 dependencies {
 	        implementation 'com.github.duranun:multicolortextview:0.1.2'
 	}
+```
+## Usage
+
+#### With Widget
+```XML
+<com.duranun.multicolortextview.MultiColorTextView
+            android:id="@+id/coloredTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resend_desc_text"
+            app:colorIntArray="@array/colorList" <!--Color array-->
+            app:coloredTextIsBold="true"
+            />
 ```
