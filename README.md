@@ -1,3 +1,6 @@
+[![Release](https://jitpack.io/v/org.bitbucket.User/Repo.svg)]
+(https://jitpack.io/#org.bitbucket.User/Repo)
+
 # Installation
 Step 1. Add the JitPack repository to your build file
 ```bash
