@@ -8,6 +8,7 @@ import android.text.style.ForegroundColorSpan
 import android.text.style.StyleSpan
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatTextView
+import com.github.duranun.multicolortextview.R
 import java.util.regex.Matcher
 import java.util.regex.Pattern
 
