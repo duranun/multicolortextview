@@ -36,7 +36,7 @@ dependencies {
             />
 ```
 
-#### You must write the word you want to color between <color> </color> tags.
+#### You must write the word you want to color between ```<color> </color>``` tags.
 
 ```XML
 <string name="coloredText"><![CDATA[<color>Hello</color> <color>Worold</color>]]></string>
