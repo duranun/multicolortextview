@@ -55,7 +55,7 @@ and set the widget in XML  app:colorIntArray="@array/colorList" or you can set p
 ```KOTLIN
         coloredTextView.setColorsListArray(R.array.colorList)
 ```
-<img src="https://raw.githubusercontent.com/duranun/multicolortextview/master/sample.png" width="270" height="480" /> &nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/duranun/multicolortextview/master/sample1.png" width="270" height="480" /> &nbsp;&nbsp;
 
 
 ## Attributes
