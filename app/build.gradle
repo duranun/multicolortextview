@@ -4,6 +4,7 @@ plugins {
     id 'com.github.dcendents.android-maven'
 }
 group='com.github.duranun'
+version '0.1.0-SNAPSHOT'
 
 android {
     compileSdkVersion 30
