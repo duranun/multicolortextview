@@ -3,7 +3,7 @@ buildscript {
     ext.kotlin_version = "1.4.10"
     repositories {
         mavenCentral()
-        maven{url 'https://www.jitpack.io'}
+        maven { url 'https://www.jitpack.io' }
         google()
         jcenter()
     }
@@ -19,12 +19,14 @@ buildscript {
 allprojects {
     repositories {
         mavenCentral()
-        maven{url 'https://www.jitpack.io'}
+        maven { url 'https://www.jitpack.io' }
         google()
         jcenter()
     }
 }
-
+configurations.all {
+    resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+}
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
