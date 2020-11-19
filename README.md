@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/duranun/multicolortextview.svg)](https://jitpack.io/#duranun/multicolortextview)
+
 # Installation
 
 
