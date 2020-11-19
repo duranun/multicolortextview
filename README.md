@@ -17,6 +17,6 @@ Step 2. Add the dependency
 
 ```bash
 dependencies {
-		implementation 'com.github.User:Repo:Tag'
+	        implementation 'com.github.duranun:multicolortextview:0.1.2'
 	}
 ```
