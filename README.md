@@ -16,5 +16,7 @@ allprojects {
 Step 2. Add the dependency
 
 ```bash
-```bash
+dependencies {
+		implementation 'com.github.User:Repo:Tag'
+	}
 ```
