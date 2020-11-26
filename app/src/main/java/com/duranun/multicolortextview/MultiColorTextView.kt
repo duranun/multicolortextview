@@ -39,7 +39,6 @@ class MultiColorTextView : AppCompatTextView {
 
     private fun init(context: Context, attrs: AttributeSet?) {
         originText = text.toString()
-        Log.e("MultiTextView",originText)
 
         val a = context.obtainStyledAttributes(attrs, R.styleable.MultiColorTextView)
         coloredTextIsBold =
