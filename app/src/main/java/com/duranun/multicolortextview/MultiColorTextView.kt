@@ -8,6 +8,8 @@ import android.text.style.ForegroundColorSpan
 import android.text.style.StyleSpan
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatTextView
+import androidx.core.text.HtmlCompat
+import androidx.core.text.HtmlCompat.FROM_HTML_MODE_LEGACY
 import com.github.duranun.multicolortextview.R
 import java.util.regex.Matcher
 import java.util.regex.Pattern
@@ -37,7 +39,7 @@ class MultiColorTextView : AppCompatTextView {
     }
 
     private fun init(context: Context, attrs: AttributeSet?) {
-        originText = text.toString()
+        originText = HtmlCompat.fromHtml(text.toString(), FROM_HTML_MODE_LEGACY).toString()
 
         val a = context.obtainStyledAttributes(attrs, R.styleable.MultiColorTextView)
         coloredTextIsBold =
