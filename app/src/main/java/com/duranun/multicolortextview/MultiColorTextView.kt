@@ -7,6 +7,7 @@ import android.text.Spanned
 import android.text.style.ForegroundColorSpan
 import android.text.style.StyleSpan
 import android.util.AttributeSet
+import android.util.Log
 import androidx.appcompat.widget.AppCompatTextView
 import androidx.core.text.HtmlCompat
 import androidx.core.text.HtmlCompat.FROM_HTML_MODE_LEGACY
@@ -39,7 +40,8 @@ class MultiColorTextView : AppCompatTextView {
     }
 
     private fun init(context: Context, attrs: AttributeSet?) {
-        originText = HtmlCompat.fromHtml(text.toString(), FROM_HTML_MODE_LEGACY).toString()
+        originText = text.toString()
+        Log.e("MultiTextView",originText)
 
         val a = context.obtainStyledAttributes(attrs, R.styleable.MultiColorTextView)
         coloredTextIsBold =
